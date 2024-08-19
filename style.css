@@ -1,0 +1,80 @@
+#toTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  display: block;
+  @media (max-width: 768px) {
+    width: 75px;
+    height: 75px;
+  }
+}
+
+.navbar {
+  background-color: #072a3e;
+}
+
+.hero {
+  height: calc(100vh - 126px);
+  @media (max-width: 768px) {
+    height: calc(100vh - 101px);
+  }
+  background-image: url("./assets/heroBG.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+.fullHeight {
+  min-height: 100vh !important;
+}
+
+.towersImg {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.titleColor {
+  color: #072a3e;
+  font-weight: bold;
+}
+
+.title {
+  color: #072a3e;
+  font-weight: bold;
+  font-size: 2.5rem;
+  @media (max-width: 768px) {
+    font-size: 2rem;
+  }
+}
+
+ul {
+  list-style-type: none;
+}
+
+.appFeatuers {
+  background-color: #072a3e;
+  color: white;
+}
+.card {
+  border: none !important;
+}
+
+.showImage {
+  height: 300px !important;
+  object-fit: contain;
+  @media (min-width: 768px) {
+    height: 400px !important;
+  }
+}
+
+.carouselBack {
+  background-color: #072a3ebd;
+}

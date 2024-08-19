@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>مجمع الروان السكني</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css"
+      integrity="sha384-dpuaG1suU0eT09tx5plTaGMLBsfDLzUCCUXOY2j/LSvXYuG6Bqs43ALlhIqAJVRb"
+      crossorigin="anonymous"
+    />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+	<link rel="icon" href="./assets/favico.png" type="image/x-icon" />
+  </head>
+  <body style="font-family: 'Cairo', sans-serif !important">
+    <header>
+      <nav class="navbar navbar-expand-lg">
+			<div class="container d-flex flex-row-reverse">
+				<div class="navbar-brand">
+				  <img
+					src="./assets/logo.png"
+					alt="logo"
+					class="logo"
+				  />
+				</div>
+				<button
+				  class="navbar-toggler bg-light"
+				  type="button"
+				  data-bs-toggle="collapse"
+				  data-bs-target="#navbarSupportedContent"
+				  aria-controls="navbarSupportedContent"
+				  aria-expanded="false"
+				  aria-label="Toggle navigation"
+				>
+				  <span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+					  <a class="nav-link active text-light" aria-current="page" href="#home">الرئيسية</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link text-light" href="#app">تطبيقنا</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link text-light" href="#features">امتيازاتنا</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link text-light" href="#contact">تواصل معنا</a>
+					</li>
+				</div>
+			  </div>
+      </nav>
+    </header>
+
+    <section class="hero d-flex justify-content-start align-items-start" id="home">
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col-12 col-lg-8 mt-5">
+            <h1 class="text-start mt-5 fs-2 fs-sm-4 lh-lg ">مرحبا بكم في  <br> <span class="titleColor">مجمع الروان السكني</span></h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="fullHeight appFeatuers d-flex justify-content-center align-items-center" id="app">
+		<div class="container flex-column d-flex align-items-center justify-content-center">
+			<h2 class="col-12 text-center title mt-5 text-light"><i class="bi bi-star-fill me-5 text-warning"></i>تطبيقنا<i class="bi bi-star-fill ms-5 text-warning"></i></h2>
+			<div class="row d-flex align-items-center justify-content-center">
+				<img class="col-12 col-md-6 d-block d-md-none" width="320" src="./assets/mockup.png" alt="">
+				<img class="col-12 col-md-6 d-none d-md-block" width="500" src="./assets/mockup.png" alt="">
+				<div class="downloadBtns col-12 col-md-6 row">
+					<div class="col-6 col-md-12 mb-md-3 d-flex align-items-center justify-content-center w-md-100">
+						<a target="_blank" href="google.com">
+							<img width="100%" src="./assets/images/buttons/googlePlay.svg" alt="">
+						</a>
+					</div>
+					<div class="col-6 col-md-12 d-flex align-items-center w-md-100 justify-content-center">
+						<a target="_blank" href="https://apps.apple.com/us/app/%D9%85%D8%AC%D9%85%D8%B9-%D8%A7%D9%84%D8%B1%D9%88%D8%A7%D9%86-%D8%A7%D9%84%D8%B3%D9%83%D9%86%D9%8A/id6504183483">
+							<img width="100%" src="./assets/images/buttons/appStore.svg" alt="">
+						</a>
+					</div>
+				</div>
+				<div class="row mt-5 mt-md-0">
+					<div class="col-12 text-center mb-5">
+						<h2 class="title text-light">مميزات تطبيقنا</h2>
+					</div>
+					<div class="card bg-transparent border-transparent text-light col-12 col-md-6 col-lg-4 mb-5">
+						<h4 class="fs-5 fs-md-3"> <i class="mdi mdi-account"></i> حساب خاص بالمالك</h4>
+						<p class="ps-3">يتيح لكل مالك وحدة سكنية داخل المجمع حسابًا خاصًا لعرض تفاصيل الوحدة السكنية (مثل كود الوحدة السكنية) بهدف تمييز الوحدات وإنشاء فواتير الدفعات الخاصة بالوحدة، بالإضافة إلى تذكير المالك بالأقساط المستحقة</p>
+					</div>
+					<div class="card bg-transparent border-transparent text-light col-12 col-md-6 col-lg-4 mb-5">
+						<h4 class="fs-5 fs-md-3"> <i class="mdi mdi-account"></i> بروفايل الزبون</h4>
+						<p class="ps-3">يمكن للزبون تغيير صورة البروفايل وعرض دفعات الوحدة السكنية. يتضمن هذا الجزء نبذة عن المجمع، معلومات الاتصال، ومميزات التطبيق، بالإضافة إلى إمكانية تقديم شكاوى مباشرة من داخل التطبيق</p>
+					</div>
+					<div class="card bg-transparent border-transparent text-light col-12 col-md-6 col-lg-4 mb-5">
+						<h4 class="fs-5 fs-md-3"> <i class="mdi mdi-cash"></i> فواتير الخدمات الشهرية</h4>
+						<p class="ps-3">يشمل التطبيق إمكانية عرض فواتير الخدمات الشهرية مثل الحراسة، التنظيف، شحن خدمات الماء، الغاز، والإنترنت. يتم تفعيل بصمة الوجه لتجنب طلب الصيانة بشكل غير مقصود إذا كان الهاتف بيد الأطفال</p>
+					</div>
+					<div class="card bg-transparent border-transparent text-light col-12 col-md-6 col-lg-4 mb-5">
+						<h4 class="fs-5 fs-md-3"> <i class="mdi mdi-tools"></i> طلب الصيانة </h4>
+						<p class="ps-3">يوفر التطبيق إمكانية طلب الصيانة من داخل التطبيق مع تفعيل بصمة الوجه لتفادي طلبات الصيانة غير المرغوب فيها من قبل الأطفال</p>
+					</div>
+					<div class="card bg-transparent border-transparent text-light col-12 col-md-6 col-lg-4 mb-5">
+						<h4 class="fs-5 fs-md-3"><i class="mdi mdi-qrcode"></i> مشاركة QR Code للضيوف </h4>
+						<p class="ps-3">يمكن لصاحب الوحدة السكنية مشاركة QR Code مخصص للضيوف عند زيارة المجمع. يتم التقاط صورة QR من قبل حراس الأمن عند الوصول للتحقق من الكود. هذا الكود فعال لمرة واحدة فقط</p>
+					</div>
+					<div class="card bg-transparent border-transparent text-light col-12 col-md-6 col-lg-4 mb-5">
+						<h4 class="fs-5 fs-md-3">  <i class="mdi mdi-security"></i> حساب خاص بالحراس</h4>
+						<p class="ps-3">يوفر التطبيق حسابًا مخصصًا لحراس المجمع لالتقاط صور QR Code الخاصة بالضيوف</p>
+					</div>
+					<div class="card bg-transparent border-transparent text-light col-12 col-md-6 col-lg-4 mb-5">
+						<h4 class="fs-5 fs-md-3">  <i class="mdi mdi-message"></i>إشعارات المجمع</h4>
+						<p class="ps-3">يرسل التطبيق إشعارات بأحدث الأخبار المتعلقة بالمجمع، بالإضافة إلى إشعارات بعروض البيع المتوفرة داخل المجمع</p>
+					</div>
+					<div class="card bg-transparent border-transparent text-light col-12 col-md-6 col-lg-4 mb-5">
+						<h4 class="fs-5 fs-md-3">  <i class="mdi mdi-point-of-sale"></i>إدارة المبيعات</h4>
+						<p class="ps-3">يتيح التطبيق إمكانية حجز الوحدات السكنية للراغبين بالشراء من خلال ملء البيانات الشخصية (الاسم، رقم الموبايل، الهوية) وإرسالها لفريق المبيعات. يتم بعد ذلك إنشاء عقد شراء للوحدة السكنية وتسجيل كافة التفاصيل اللازمة</p>
+					</div>
+				</div>
+			</div>
+		</div>
+    </section>
+
+	<section class="fullHeight d-flex justify-content-center align-items-center" id="features" style="background-color: #eee;">
+		<div class="container">
+			<h2 class="col-12 text-center title mb-5 mt-5"><i class="bi bi-star-fill me-5 text-warning"></i>امتيازاتنا<i class="bi bi-star-fill ms-5 text-warning"></i></h2>
+			<div class="row">
+				<div class="col-12 col-md-4 fs-5 mb-5">
+					<span class="mdi mdi-domain"></span> 
+					<span>شقق عصرية بمساحة 200م و بأطلالة ساحرة</span>
+				</div>
+				<div class="col-12 col-md-4 fs-5 mb-5">
+					<span class="mdi mdi-road-variant"></span> 
+					<span>بوليفارد منفصل عان المجمع السكني لضمان الهدوء </span>
+				</div>
+				<div class="col-12 col-md-4 fs-5 mb-5">
+					<span class="mdi mdi-account-hard-hat"></span> 
+					<span>تطبيق اعلى معايير الجودة في البناء</span>
+				</div>
+				<div class="col-12 col-md-4 fs-5 mb-5">
+					<span class="mdi mdi-domain-switch"></span> 
+					<span>عدد الشقق في كل بناية <span class="fw-bold">68</span> شقة</span>
+				</div>
+				<div class="col-12 col-md-4 fs-5 mb-5">
+					<span class="mdi mdi-domain-switch"></span> 
+					<span>عدد الشقق الكلي <span class="fw-bold">544</span> شقة</span>
+				</div>
+				<div class="col-12 col-md-4 fs-5 mb-5">
+					<span class="mdi mdi-home-city"></span> 
+					<span>مساحة كل شقة سكنية <span class="fw-bold">200 م<sup>2</sup></span> مع الخدمات</span>
+				</div>
+				<div class="col-12 col-md-4 fs-5 mb-5">
+					<span class="mdi mdi-home-lightning-bolt"></span> 
+					<span>كهرباء <span class="fw-bold">24</span> ساعة </span>
+				</div>
+				<div class="col-12 col-md-4 fs-5 mb-5">
+					<span class="mdi mdi-shield-home"></span> 
+					<span>أمن على مدار الساعة</span>
+				</div>
+				<div class="col-12 col-md-4 fs-5 mb-5">
+					<span class="mdi mdi-storage-tank"></span> 
+					<span>منظومة غاز مركزية</span>
+				</div>
+				<div class="col-12 col-md-4 fs-5 mb-5">
+					<span class="mdi mdi-city"></span> 
+					<span>مدرسة دولية</span>
+				</div>
+				<div class="col-12 col-md-4 fs-5 mb-5">
+					<span class="mdi mdi-city-switch"></span> 
+					<span>مساحة المدرسة <span class="fw-bold">1347 م<sup>2</sup></span></span>
+				</div>
+				<div class="col-12 col-md-4 fs-5 mb-5">
+					<span class="mdi mdi-leaf"></span> 
+					<span>مساحات خضراء</span>
+				</div>
+				<div class="col-12 col-md-4 fs-5 mb-5">
+					<span class="mdi mdi-garage-variant"></span> 
+					<span>موقف سيارات تحت الأرض</span>
+				</div>
+			</div>
+			<div class="carouselBack">
+				<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+					<div class="carousel-inner">
+					  <div class="carousel-item active">
+						<img src="./assets/images/image2.jpeg" class="showImage d-block h-25 w-100" alt="...">
+					  </div>
+					  <div class="carousel-item">
+						<img src="./assets/images/image1.jpeg" class="showImage d-block h-25 w-100" alt="...">
+					  </div>
+					  <div class="carousel-item">
+						<img src="./assets/heroBG.jpeg" class="showImage d-block h-25 w-100" alt="...">
+					  </div>
+					</div>
+					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+					  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					  <span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+					  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					  <span class="visually-hidden">Next</span>
+					</button>
+				  </div>
+			</div>
+		</div>
+	</section>
+
+	<section class="fullHeight d-flex flex-column justify-content-center align-items-center" id="contact">
+
+		<h2 class="col-12 text-center title mb-5 fs-2"><i class="bi bi-star-fill me-5 text-warning"></i>تواصل معنا<i class="bi bi-star-fill ms-5 text-warning"></i></h2>
+
+		<div class="container row">
+			<div class="col-12 d-flex align-items-center justify-content-center">
+				<button href="tel:07705000275" class="btn btn-outline-primary fs-4 text-primary d-block d-md-none">اتصل بنا <i class="bi bi-telephone-fill me-2"></i></button>
+				<p class="d-none d-md-inline fs-3" >+9647705000275 <i class="bi bi-telephone-fill me-2 text-primary"></i></p>
+				<a href="https://www.facebook.com/profile.php?id=100082958091689" target="_blank" class="btn fs-1 text-primary mb-md-3"><i class="bi bi-facebook me-2"></i></a>
+		</div>
+
+			<div class="card border-warning mt-5 mb-3 col-12">
+				<div class="card-header bg-light fw-bold">موقعنا على الخريطه</div>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3335.4825861468985!2d44.30749717360097!3d33.28003565811349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1559d7b75ec17e95%3A0x9f69dcf899d9b5bc!2zUmF3YW4gQ29tcGxleC3Zhdis2YXYuSDYp9mE2LHZiNin2YYg2KfZhNiz2YPZhtmK!5e0!3m2!1sen!2siq!4v1724076298239!5m2!1sen!2siq" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+			</div>
+
+		
+	</section>
+
+
+    <!-- --------------------------------- -->
+
+    <button
+      class="btn bg-warning text-dark"
+      onclick="scrollToTop()"
+      id="toTopBtn"
+      title="Go to top"
+    >
+      <span class="mdi mdi-arrow-up-bold"></span>
+    </button>
+
+    <!-- --------------------------------- -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      var toTopBtn = document.getElementById("toTopBtn");
+
+      window.onscroll = function () {
+        showAndHidBtn();
+      };
+
+      function showAndHidBtn() {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          toTopBtn.style.display = "block";
+        } else {
+          toTopBtn.style.display = "none";
+        }
+      }
+
+      function scrollToTop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+  </body>
+</html>
