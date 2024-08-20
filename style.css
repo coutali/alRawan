@@ -18,7 +18,8 @@
 }
 
 .navbar {
-  background-color: #072a3e;
+  background-color: #eee;
+  color: #072a3e;
 }
 
 .hero {
@@ -77,4 +78,20 @@ ul {
 
 .carouselBack {
   background-color: #072a3ebd;
+}
+
+.input:user-valid {
+  outline: red !important;
+}
+
+/* form {
+  background-color: #072a3e;
+  border-radius: 15px;
+  padding: 20px;
+  height: 100% !important;
+} */
+
+footer {
+  background-color: #072a3e;
+  color: white;
 }
