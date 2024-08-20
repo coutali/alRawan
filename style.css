@@ -95,7 +95,7 @@ footer {
   background-color: #072a3e;
   color: white;
   a {
-    color: white;
+    color: white !important;
     cursor: pointer;
   }
 }
