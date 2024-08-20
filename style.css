@@ -94,4 +94,8 @@ ul {
 footer {
   background-color: #072a3e;
   color: white;
+  a {
+    color: white;
+    cursor: pointer;
+  }
 }
