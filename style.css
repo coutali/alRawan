@@ -76,6 +76,16 @@ ul {
   }
 }
 
+.amazonBtn {
+  width: 95%;
+  @media (min-width: 1200px) {
+    width: 75%;
+  }
+  @media (min-width: 1400px) {
+    width: 65%;
+  }
+}
+
 .carouselBack {
   background-color: #072a3ebd;
 }
