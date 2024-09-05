@@ -91,6 +91,26 @@
 							<img width="100%" src="./assets/images/buttons/appStore.svg" alt="">
 						</a>
 					</div>
+					<div class="col-12 d-flex align-items-center w-md-100 justify-content-center">
+						<a
+						id="schBtn"
+						style="
+						  font-weight: bold;
+						  background-color: white;
+						  color: black;
+						  width: fit-content;
+						  padding-inline: 20px;
+						  padding-block: 10px;
+						  border-radius: 10px;
+						  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+						  display: flex;
+						  align-items: center;
+						  justify-content: center;
+						"
+					  >
+						download android app directly
+					</a>
+					</div>
 				</div>
 				<div class="row mt-5 mt-md-0">
 					<div class="col-12 text-center mb-5">
@@ -296,9 +316,9 @@
 						<a target="_blank" href="https://www.facebook.com/profile.php?id=100082958091689" class="btn fs-1 text-primary mb-md-3">
 							<i class="bi bi-facebook me-2"></i>
 						</a>
-						<p class="fs-5 mt-3 mt-md-2">9647705000275+</p>
+						<p class="fs-5 mt-3 mt-md-2">+9647705000275</p>
 					</div>
-					<h5 class="mb-5 text-center fw-bold">Contact Us</h5>
+					<h5 class="mb-5 text-center fw-bold me-4">Contact Us</h5>
 					<hr>
 					<div class="d-flex gap-4 flex-column flex-md-row align-items-center justify-content-center">
 						<div class="d-flex flex-column align-items-center justify-content-between gap-2">
@@ -374,6 +394,24 @@
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
       }
+
+	  async function getSchUrl() {
+        const url = "https://api.myexperience.center/api/mobile/app_versions/الروان";
+        try {
+          const response = await fetch(url);
+          if (!response.ok) {
+            throw new Error(`Response status: ${response.status}`);
+          }
+
+          const json = await response.json();
+          schoolUrl = json.content_url + json.results.url;
+          document.querySelector("#schBtn").href = schoolUrl;
+        } catch (error) {
+          console.error(error.message);
+        }
+      }
+
+      getSchUrl();
 
     </script>
 
